@@ -1,0 +1,3 @@
+<template lang="pug">
+h1.text-3xl.font-bold.underline Hello world!
+</template>
