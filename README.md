@@ -12,6 +12,8 @@ A study about Vue 3, Pug, Tailwind, and supabase.
 * [supabase](https://supabase.com/)
 * [Vite](https://vitejs.dev/)
 * [Prettier](https://prettier.io/)
+* [auth0](https://auth0.com/)
+* [Vue Router](https://router.vuejs.org/)
 
 ## How to run locally
 

@@ -1,3 +1,11 @@
 <template lang="pug">
-h1.text-3xl.font-bold.underline Hello world!
+<router-link to="/">
+  p home-link
+</router-link>
+
+<router-link to="/login">
+  p login-link
+</router-link>
+
+<router-view />
 </template>
