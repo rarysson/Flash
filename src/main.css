@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes scroll-top {
+	0% {
+		transform: translateY(500%);
+	}
+
+  50% {
+    opacity: 1;
+  }
+
+	100% {
+		transform: translateY(-500%);
+	}
+}

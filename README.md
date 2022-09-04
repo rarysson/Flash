@@ -1,6 +1,6 @@
 # Flash
 
-A blazingly fast chat app.
+THE blazingly fast chat app.
 
 A study about Vue 3, Pug, Tailwind, and supabase.
 

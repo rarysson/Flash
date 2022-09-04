@@ -1,17 +1,19 @@
+import { authGuard } from "@auth0/auth0-vue";
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "./pages/Home.vue";
+import Landing from "./pages/Landing/Landing.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "Landing",
+    component: Landing
   },
   {
-    path: "/login",
-    name: "Login",
-    component: () => import("./pages/Login.vue")
+    path: "/app",
+    name: "App",
+    component: () => import("./pages/Home/Home.vue"),
+    beforeEnter: authGuard
   }
 ];
 
