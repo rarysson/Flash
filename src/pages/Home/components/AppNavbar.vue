@@ -1,6 +1,6 @@
 <template lang="pug">
 nav.px-5.py-3.flex.justify-end.bg-zinc-800
-  button.relative.rounded-full.bg-gradient-to-r.from-brand-purple.to-brand-green(class="p-0.5")
+  button.relative.rounded-full.bg-gradient-to-r.from-brand-purple.to-brand-green.cursor-default(class="p-0.5")
     img.peer.relative.z-10.border.border-black.rounded-full(:src="user.picture" width="50" height="50")
 
     div(class=`
